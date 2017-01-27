@@ -8,7 +8,7 @@ namespace ArrayElementInsert {
     class Program {
         static void Main(string[] args) {
             int[] oldArray = new int[10];
-            Random rnd = new Random();
+            Random rnd = new Random(); // not really random
             Console.WriteLine("Array: ");
             for (int i = 0; i < oldArray.Length; i++) {
                 oldArray[i] = rnd.Next(1000);
